@@ -156,6 +156,10 @@
     grid-template-columns: 40px 200px 40px;
   }
 
+  .record-item {
+    text-indent: 0.25rem;
+  }
+
 }
 
 @media screen and (max-height: 600px) {
@@ -179,6 +183,10 @@
 
   .record-row {
     width: 90%;
+  }
+
+  .record-item {
+    text-indent: 0.25rem;
   }
 
   .delete-btn span {
